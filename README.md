@@ -42,4 +42,4 @@ Abra no Visual Studio: Abra o arquivo de solução (.sln).
 Execute o Aplicativo: Selecione a plataforma (ex: Android Emulator) e pressione F5 (Executar).
 
 ## ✍️ Autor
-@brendahidalgos - Aluno do curso de Análise e Desenvolvimento de Sistemas.
+@brendahidalgos - Aluna do curso de Análise e Desenvolvimento de Sistemas.
