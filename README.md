@@ -45,7 +45,7 @@ Siga estes passos para configurar e rodar o projeto em sua máquina de desenvolv
 3.  **Execute o Aplicativo:**
     * Selecione o destino desejado (ex: `Android Emulator`, `Windows Machine` ou `iOS Simulator`).
     * Pressione **F5** (ou clique no botão de **Executar**).
-
+---
 ## 👩‍💻 Desenvolvido em
 
 * **Curso Técnico em Desenvolvimento de Sistemas**
