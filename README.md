@@ -1,45 +1,62 @@
 # ⛽ Calculadora Flex: Etanol vs. Gasolina
 
-## 📝 Descrição:
-O Calculadora Flex é um aplicativo desenvolvido em .NET MAUI para ajudar motoristas de veículos flex a decidir qual combustível é mais vantajoso financeiramente: Etanol ou Gasolina.
+## 📝 Descrição
 
-O app realiza o cálculo de eficiência e mostra a recomendação com base nos preços informados. Além disso, permite que o usuário registre a marca do seu veículo.
+O **Calculadora Flex** é um aplicativo desenvolvido em **.NET MAUI** para auxiliar motoristas de veículos flex a tomarem a melhor decisão financeira no momento de abastecer.
+
+O app realiza o cálculo de eficiência com base nos preços informados e fornece uma recomendação clara, indicando se o **Etanol** ou a **Gasolina** é o combustível mais vantajoso.
 
 ## ✨ Funcionalidades Principais
-Cálculo de Vantagem: Determina se o Etanol ou a Gasolina é o mais econômico para abastecer.
 
-Entrada de Preços: Campos para inserir o preço por litro da Gasolina e do Etanol.
-
-Marca do Veículo: Campo para personalização (opcional) onde o usuário pode registrar a marca do seu carro.
-
-Multiplataforma: O app tem uma interface unificada para Android, iOS, Windows e macOS.
+* **Cálculo de Vantagem**: Determina qual combustível é o mais econômico para abastecer.
+* **Entrada de Preços**: Campos intuitivos para inserir o preço por litro da Gasolina e do Etanol.
+* **Marca do Veículo**: Campo de personalização (opcional) onde o usuário pode registrar a marca do seu carro.
+* **Multiplataforma**: O aplicativo possui uma interface unificada e pode ser executado em **Android, iOS, Windows e macOS**.
 
 ## ⚙️ A Lógica do Cálculo (Regra dos 70%)
-O aplicativo utiliza a regra mais comum para veículos flex no Brasil:
 
-O Etanol é considerado a melhor opção se o seu preço for menor ou igual a 70% do preço da Gasolina. Caso contrário, a Gasolina é mais vantajosa.
+O aplicativo utiliza a regra mais comum e aceita no mercado para veículos flex no Brasil.
 
-Como Funciona:
-O app calcula o percentual: (Preço do Etanol / Preço da Gasolina).
+> O Etanol é considerado a melhor opção se o seu preço for **menor ou igual a 70%** do preço da Gasolina. Caso contrário, a Gasolina é mais vantajosa.
 
-Se o resultado for 0.70 (70%) ou menor: Recomenda Etanol.
+**Como Funciona:**
 
-Se o resultado for maior que 0.70 (70%): Recomenda Gasolina.
+1.  O app calcula o percentual: $P = \frac{\text{Preço do Etanol}}{\text{Preço da Gasolina}}$.
+2.  **Se** $P \le 0.70$: Recomenda **Etanol**.
+3.  **Se** $P > 0.70$: Recomenda **Gasolina**.
 
 ## 🚀 Como Executar o Projeto
-Siga estes passos para rodar o projeto em sua máquina:
 
-Pré-requisitos
-Visual Studio 2022 (com a carga de trabalho de .NET MAUI instalada).
+Siga estes passos para configurar e rodar o projeto em sua máquina de desenvolvimento:
 
-.NET 8 - Versão utilizada.
+### Pré-requisitos
 
-Passos para Execução
-Clone o Repositório:
+* **Visual Studio 2022** (com a carga de trabalho de **.NET MAUI** instalada).
+* **.NET 8**: Versão da *framework* utilizada no projeto.
 
-Abra no Visual Studio: Abra o arquivo de solução (.sln).
+### Passos para Execução
 
-Execute o Aplicativo: Selecione a plataforma (ex: Android Emulator) e pressione F5 (Executar).
+1.  **Clone o Repositório:**
+    ```bash
+    git clone [https://github.com/brendahidalgos/CalculadoraFlex.git](https://github.com/brendahidalgos/CalculadoraFlex.git)
+    ```
+2.  **Abra no Visual Studio:**
+    * Abra o arquivo de solução (`.sln`) do projeto no Visual Studio 2022.
+3.  **Execute o Aplicativo:**
+    * Selecione o destino desejado (ex: `Android Emulator`, `Windows Machine` ou `iOS Simulator`).
+    * Pressione **F5** (ou clique no botão de **Executar**).
+
+---
+## 👩‍💻 Desenvolvido em
+
+* **Curso Técnico em Desenvolvimento de Sistemas**
+
+## 📧 Contato
+
+Se tiver alguma dúvida ou sugestão, pode me chamar!
+
+* **GitHub**: [@brendahidalgos](https://github.com/brendahidalgos)
 
 ## ✍️ Autor
-@brendahidalgos - Aluna do curso de Análise e Desenvolvimento de Sistemas.
+
+* **@brendahidalgos** - Aluna do curso de Análise e Desenvolvimento de Sistemas.
