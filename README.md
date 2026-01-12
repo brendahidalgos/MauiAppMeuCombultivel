@@ -38,7 +38,7 @@ Siga estes passos para configurar e rodar o projeto em sua máquina de desenvolv
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/brendahidalgo/MauiAppMeuCombustivel.git](https://github.com/brendahidalgos/MauiAppMeuCombustivel.git)
+    git clone [https://github.com/brendahidalgo/MauiAppMeuCombustivel.git]
     ```
 2.  **Abra no Visual Studio:**
     * Abra o arquivo de solução (`.sln`) do projeto no Visual Studio 2022.
