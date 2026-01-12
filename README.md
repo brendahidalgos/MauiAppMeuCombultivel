@@ -38,7 +38,7 @@ Siga estes passos para configurar e rodar o projeto em sua máquina de desenvolv
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/brendahidalgos/CalculadoraFlex.git](https://github.com/brendahidalgos/CalculadoraFlex.git)
+    git clone [https://github.com/brendahidalgo/MauiAppMeuCombustivel.git](https://github.com/brendahidalgos/MauiAppMeuCombustivel.git)
     ```
 2.  **Abra no Visual Studio:**
     * Abra o arquivo de solução (`.sln`) do projeto no Visual Studio 2022.
@@ -58,4 +58,4 @@ Se tiver alguma dúvida ou sugestão, pode me chamar!
 
 ## ✍️ Autor
 
-* **@brendahidalgos** - Aluna do curso de Análise e Desenvolvimento de Sistemas.
+* **@brendahidalgos** - Aluna do curso técnico de Desenvolvimento de Sistemas.
